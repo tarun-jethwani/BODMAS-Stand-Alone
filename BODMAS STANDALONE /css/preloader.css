@@ -1,0 +1,77 @@
+
+body{
+	background-color: #b3e5fc;
+	color: white;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    padding-top: 25px;
+
+}
+
+.minion {
+	display: block;
+	margin: 0 auto;
+	color: #325d88;
+	padding-top: 8px;
+
+}
+.navbar{
+	background-color: #0088a3;
+}
+.box1{
+	background-color: #62ebff;
+
+}
+.box2{
+	background-color: #283593;
+}
+.but1{
+background-color: #63a4ff;
+
+}
+.but2{
+background-color: #004ba0;
+
+}
+.two{
+	padding-bottom: 30px;
+	vertical-align: bottom;
+}
+.head1{
+	background-color: #b3e5fc;
+	color: #004ba0;
+	letter-spacing: 13px;
+	text-shadow: 3px 2px #82b3c9;
+	text-align: center;
+}
+
+.loader {
+  position: absolute;
+  top: 95%;
+  left: 58%;
+  z-index: 1;
+  width: 80px;
+  height: 80px;
+  margin: -75px 0 100px -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 12px solid #63a4ff;
+  border-right: 12px solid #b3e5fc;
+  border-bottom: 12px solid #e6ffff;
+  border-left: 12px solid #6ec6ff;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

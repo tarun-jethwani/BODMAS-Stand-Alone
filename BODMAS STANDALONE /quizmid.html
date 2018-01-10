@@ -1,0 +1,89 @@
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Bodmas</title>
+  <!-- Bootstrap Scripts -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--link rel="stylesheet" href="standstone.css"-->
+  <link rel="stylesheet" href="bootstrap.min.css">
+    <!-- Bootstrap scripts end -->
+      <link rel="stylesheet" href="style.css">
+
+    <!-- *****  JS TIMER  MODULE *** -->
+      <script type="text/javascript" src="timer.js"></script>
+  <!-- *****  1st JS MODULE  COMPLETED *** -->
+
+  <!-- JS BODMASFORM MODULE START -->
+      <script type="text/javascript" src="mathmid.js"></script>
+  <!-- JS 2ND MODULE COMPLETED -->
+
+
+
+</head>
+<div class="imgbanner"><p>
+<img src="bodmas_banner_whitebg.png" alt="BODMAS">
+</div></p>
+
+<body onload="bodmas()">
+
+  <p><div id="clockdiv">
+    <div>
+      <span class="seconds" id="countdowntimer">60</span>
+      <div class="smalltext">Seconds</div>
+    </div>
+  </div>
+</p>
+</br>
+<h4><i><span class="level">LEVEL : </span></i>&nbsp;&nbsp;<b>Class Test !</b></h4>
+</br>
+
+<!-- Score Panel -->
+<div class="panel panel-primary" style="padding-bottom: 10px;">
+  <div class="panel-heading">
+    <h2 id="eqn" ></h2>
+  </div>
+  <div class="panel-body" >
+
+  </div>
+
+    <center class="center">
+
+      <div class="nav nav-pills">
+  <div class="active"><h4>Score : <span class="label label-primary" id="score">-</span></h4></div>
+</div>
+
+    <form id="quizform">
+      <div class="form-group">
+  <label class="control-label"></label>
+  <div class="input-group">
+    <span class="input-group-addon">=</span>
+    <input type="number" class="form-control" id="myNumber">
+    <span class="input-group-btn">
+      <input type="button" class="btn btn-primary" value="Done" onClick="ans(); bodmas();">
+
+    </span>
+  </div>
+ </div>
+    </form>
+    <!-- Show message Right or Wrong -->
+   <table>
+    <tr>
+      <td><h5><b>LAST ANSWER : &nbsp;&nbsp;&nbsp;</b></h5></td>
+
+      <td class="btn btn-primary" id="message">No Response</td>
+      <p></p>
+    </tr>
+  </table>
+    </center>
+  </div>
+
+    </body>
+    </html>
+
+
+
+
+</body>
+</html>
